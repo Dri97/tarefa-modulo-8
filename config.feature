@@ -6,10 +6,8 @@ Funcionalidade: Configurar Produto
    Dado que sou um cliente da EBAC-SHOP
    E estou configurando um produto
 
-  Cenário: Configurar produto com cor, tamanho e quantidade
-    Quando eu selecionar a cor "<Cor>"
-    E eu selecionar o tamanho "<Tamanho>"
-    E escolher a quantidade "<Quantidade>"
+ Cenário: Configurar produto com cor, tamanho e quantidade
+    Quando escolher a cor "<Cor>", o tamanho "<Tamanho>" e a quantidade "<Quantidade>"
     Então a configuração do produto deve ser salva
 
   Cenário: Limitar produtos por venda
